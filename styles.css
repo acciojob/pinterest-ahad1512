@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+.container{
+	/* height:300px; */
+	display:flex;
+	align-items:center;
+	justify-content:flex-start;
+	height:200px;
+}
+img{
+	height:200px;
+	width:350px;
+	object-fit:cover;
+}
+.content{
+	position:relative;
+	right:40px;
+	width:200px;
+	text-align:center;
+	padding:60px;
+	font-size:10px;
+}
+button{
+	color:white;
+	background-color:#FF0000;
+	border: 0px solid;
+	padding:5px;
+	border-radius:5px;
+}
